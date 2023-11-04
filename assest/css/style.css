@@ -373,5 +373,11 @@ nav ul li a {
     nav ul li a {
         padding: 2px 5%;
     }
-
+}
+/* Mobile Menu Humber Icon */
+@media screen and (max-width: 412px) {
+    .hamburger-menu{
+        position: absolute;        
+        right: 0;
+    }    
 }
