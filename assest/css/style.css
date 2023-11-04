@@ -22,7 +22,6 @@ nav {
     width: 100%;
     box-sizing: border-box;
     z-index: 1000;
-    /* padding: 0  10%; */
 }
 
 nav .logo {
@@ -30,15 +29,11 @@ nav .logo {
     float: left;
     padding-top: 20px;
     padding-left: 13%;
-    align-items: center;
+    justify-content: center;
+
 }
 
-@media (max-width :500px) {
-    nav .logo {
-        padding: 0;
 
-    }
-}
 
 nav .buttonX {
     height: 60px;
@@ -131,6 +126,7 @@ nav ul li a {
     text-align: center;
     border-radius: 5px;
 }
+
 .buttonY {
     background-color: #f5ab1b;
     color: #fff;
@@ -373,11 +369,15 @@ nav ul li a {
     nav ul li a {
         padding: 2px 5%;
     }
-}
-/* Mobile Menu Humber Icon */
-@media screen and (max-width: 412px) {
-    .hamburger-menu{
-        position: absolute;        
+
+    nav.logo {
+        /* padding: 10px; */
+
+    }
+    .hamburger-menu {
+        position: absolute;
         right: 0;
-    }    
+    }
+
 }
+
