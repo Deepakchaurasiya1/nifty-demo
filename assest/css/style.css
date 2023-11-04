@@ -80,21 +80,6 @@
      border-radius: 6px;
  }
 
- /* @media (max-width:768px) {
-     section {
-         background-size: auto;
-     }
-
-     .sizeY h2 {
-         padding-top: 100%;
-         font-size: 40px;
-     }
-
-     .sizeY h5 {
-         font-size: 18px;
-     }
- } */
-
 
  @media (max-width: 1400px) {
      nav ul {
@@ -110,10 +95,6 @@
      nav ul.show {
          display: flex;
      }
-
-     /* nav ul li {
-         margin: 10px 0;
-     }  */
 
      nav .hamburger-menu {
          display: block;
@@ -136,28 +117,6 @@
 
      }
  }
-
- /* .sizeY h2 {
-     font-size: 80px;
-     padding-top: 20%;
-     padding-left: 25%;
- }
-
- .sizeY h5 {
-     font-size: 35px;
-     margin-left: 28%;
- }
-
- @media (max-width:768px) {
-     .sizeY h2 {
-         padding-top: 100%;
-         font-size: 40px;
-     }
-
-     .sizeY h5 {
-         font-size: 18px;
-     }
- } */
 
  /* navbar end */
  .image-text {
@@ -219,7 +178,7 @@
  @media screen and (max-width:841px) {
 
      .image-text {
-         top: 50%;
+         top: 60%;
          left: 40%;
          padding: 10px;
      }
@@ -326,6 +285,7 @@
  .radio-button input[type="radio"]:checked+label {
      background: #f5ab1b;
  }
+
  .testimonial-card .card-up {
      height: 120px;
      overflow: hidden;
