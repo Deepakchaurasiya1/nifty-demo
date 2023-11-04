@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nifty</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="background-image">
+        <nav class="transparent-navbar">
+            <nav>
+                <div class="logo">
+                    <img src="assest/img/logo-2.png" alt="img" width="60%">
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="buttonX">
+                    <button class="px-3 py-1 fs-5"
+                        style="background-color: #f5ab1b; color: #fff; border-color: #f5ab1b; border-radius: 5px;">Start
+                        Chat</button>
+                </div>
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </nav>
+    </div>
+
+
+    <div class="container-fluid p-0">
+        <div class="image-container" id="photo1"
+            style="background: url('./assest/img/windowzon.webp');width: 100%; height: 810px; background-size: cover; background-position:center; ">
+            <div class="image-text">
+                <h2>Windows Performance Boost</h2>
+                <p>Experience lightning-fast computing with our comprehensive PC optimization
+                    services.</p>
+                <button class="px-3 py-1 fs-5 mt-4 buttonY">Start Chat</button>
+                <button class="px-3 py-1 fs-5 mt-4 buttonZ">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="image-container" id="photo2"
+            style="background: url('assest/img/Maczon.webp'); width: 100%;height: 810px; background-size: cover; background-position:center;">
+            <!-- <img src="img/Mac_11zon.webp" alt="img" width="100%" height="800vh"> -->
+            <div class="image-text">
+                <h2>Maximize Your Mac's Potential</h2>
+                <p>Unlock peak performance with our thorough Mac optimization services.</p>
+                <button class="px-3 py-1 fs-5 mt-4 buttonY">Start Chat</button>
+                <button class="px-3 py-1 fs-5 mt-4 buttonZ">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="image-container" id="photo3"
+            style="background: url('assest/img/Androidzon.webp'); width: 100%;height: 810px; background-size: cover; background-position:center;">
+            <div class="image-text">
+                <h2>Streamlined Android Experience</h2>
+                <p>Enjoy a snappy and clutter-free Android device with our optimization
+                    solutions.</p>
+                <button class="px-3 py-1 fs-5 mt-4 buttonY">Start Chat</button>
+                <button class="px-3 py-1 fs-5 mt-4 buttonZ">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="image-container" id="photo4"
+            style="background: url('assest/img/ioszon.webp'); width: 100%;height: 810px; background-size: cover; background-position:center;">
+            <div class="image-text">
+                <h2>Elevate Your iOS Experience</h2>
+                <p>Experience a smoother and faster iOS device with our optimization services.</p>
+                <button class="px-3 py-1 fs-5 mt-4 buttonY">Start Chat</button>
+                <button class="px-3 py-1 fs-5 mt-4 buttonZ">Contact Us</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="radio-button" style="line-height: 2.5;">
+
+        <input type="radio" name="imageSelection" value="1" id="radio1" onclick="showPhoto(1);showImage(1);showCard(1)">
+
+        <label for="radio1">
+            <img class="d-lg-none d-sm-block" src="./assest/img/windows1.png">
+            <span class="d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align: center; ">Windows</span>
+        </label>
+
+        <input type="radio" name="imageSelection" value="2" id="radio2" onclick="showPhoto(2);showImage(2);showCard(2)">
+
+        <label for="radio2">
+            <img class="d-lg-none d-sm-block" src="assest/img/computer.png">
+            <span class=" d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align: center;">Mac</span>
+        </label>
+
+        <input type="radio" name="imageSelection" value="3" id="radio3" onclick="showPhoto(3);showImage(3);showCard(3)">
+
+        <label for="radio3">
+            <img class="d-lg-none d-sm-block" src="assest/img/android3.png">
+            <span class="d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align: center;">Android</span>
+        </label>
+
+        <input type="radio" name="imageSelection" value="4" id="radio4" onclick="showPhoto(4);showImage(4);showCard(4)">
+
+        <label for="radio4">
+            <img class="d-lg-none d-sm-block" src="assest/img/apple.png">
+            <span class="d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align:center;">iOS</span>
+        </label>
+    </div>
+
+    <div class="new">
+        <div class="container-fluid text-center">
+            <div class="row p-3" style="background-color:#f5ab1b; align-items: center; justify-content: center;">
+                <div class="col-md-2 text-center">
+                    <img src="assest/img/font11.png" alt="img" width="20%">
+                    <h5 class="text-center">Tell us the issue</h5>
+                </div>
+                <div class="col-md-1">
+                    <div class="border-bottom"></div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="assest/img/font12.png" alt="img" width="20%">
+                    <h5 class="">We identify its cause</h5>
+                </div>
+                <div class="col-md-1">
+                    <div class="border-bottom"></div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="assest/img/font13.png" alt="img" width="20%">
+                    <h5 class="">We provide the solution</h5>
+                </div>
+                <div class="col-md-1">
+                    <div class="border-bottom"></div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="assest/img/font14.png" alt="img" width="20%">
+                    <h5 class="">You test the device</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <img src="assest/img/Windows.png" alt="img" id="image1" width="100%">
+                <img src="assest/img/Mac.png" alt="img" id="image2" width="100%" style="display: none;">
+                <img src="assest/img/Android.png" alt="img" id="image3" width="100%" style="display: none;">
+                <img src="assest/img/iOS.png" alt="img" id="image4" width="100%" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="container-fluid" id="Card1">
+            <div class="row px-5">
+                <div class="text-center my-5">
+                    <h2 class="text-decoration-underline">Windows</h2>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/pcoptimization.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">1. PC Optimization</h5>
+                    <p>Conducted a comprehensive PC optimization to enhance overall system performance.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/RemovingMaliciousExtensionsfromBrowser.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">2. Removing Malicious Extensions from Browser</h5>
+                    <p>Identified and removed malicious browser extensions to ensure a safer online experience.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/uninstall.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">3. Uninstalling 3rd Party Applications</h5>
+                    <p>Uninstalled unnecessary 3rd party applications, improving system efficiency and decluttering the
+                        PC.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/windowsstartup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">4. Optimizing Windows Startup</h5>
+                    <p>Optimized Windows startup to reduce boot time and improve user experience.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/installingantivirus.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">5. Installing Anti-Virus</h5>
+                    <p>Installed a reliable antivirus software to protect the system from potential threats</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/adblock.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">6. Installing Ad Block</h5>
+                    <p>Added an ad blocker to the browser for a cleaner and faster web browsing experience.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/updateprinter.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">7. Updating Printer Drivers</h5>
+                    <p>Uninstalled unnecessary 3rd party applications, improving system efficiency and decluttering the
+                        PC.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/upgrade.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">8. Updating System Services</h5>
+                    <p>Checked and updated essential system services to maintain system stability.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/printersetup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">9. Printer Setup (Wi-Fi or LAN)</h5>
+                    <p>Assisted the customer in setting up the printer, either via Wi-Fi or LAN cable, as per the
+                        customer's
+                        preference.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/wifiprintersetup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">10. Setting Up Wireless Printer via Phone</h5>
+                    <p>Provided assistance for setting up a wireless printer via a phone and ensured a successful test
+                        print.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/printing-test.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">11. Test Print for Printer Verification</h5>
+                    <p>Conducted a test print to verify the printer's functionality and resolved any issues.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/installingsupport.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">12. Installing Support Icon</h5>
+                    <p>Installed a support icon on the customer's computer, allowing them to initiate future sessions
+                        with our technical team for assistance.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5" style="display: flex; flex-direction: column; align-items: center;">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/customerserviceinfo.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">13. Providing Customer Service Information</h5>
+                    <p>Provided the customer with our customer service number for future reference, ensuring they can
+                        reach out
+                        for support as
+                        needed.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="Card2" style="display: none;">
+            <div class="row px-5">
+                <div class="text-center my-5">
+                    <h2 class="text-decoration-underline">Mac</h2>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/pcoptimization.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">1. Mac Optimization</h5>
+                    <p>Conducted a comprehensive PC optimization to enhance overall system performance.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/RemovingMaliciousExtensionsfromBrowser.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">2. Removing Malicious Extensions from Browser</h5>
+                    <p>Identified and removed malicious browser extensions to ensure a safer online experience.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/uninstall.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">3. Uninstalling 3rd Party Applications</h5>
+                    <p>Uninstalled unnecessary 3rd party applications, improving system efficiency and decluttering the
+                        PC.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/windowsstartup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">4. Optimizing Mac Startup</h5>
+                    <p>Optimized Mac startup to reduce boot time and improve user experience.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/installingantivirus.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">5. Installing Anti-Virus</h5>
+                    <p>Installed a reliable antivirus software to protect the system from potential threats</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/adblock.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">6. Installing Ad Block</h5>
+                    <p>Added an ad blocker to the browser for a cleaner and faster web browsing experience.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/updateprinter.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">7. Updating Printer Drivers</h5>
+                    <p>Updated printer drivers to ensure seamless printing functionality</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/upgrade.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">8. Updating System Services</h5>
+                    <p>Checked and updated essential system services to maintain system stability.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/printersetup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">9. Printer Setup (Wi-Fi or LAN)</h5>
+                    <p>Assisted the customer in setting up the printer, either via Wi-Fi or LAN cable, as per the
+                        customer's
+                        preference.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/wifiprintersetup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">10. Setting Up Wireless Printer via Phone</h5>
+                    <p>Provided assistance for setting up a wireless printer via a phone and ensured a successful test
+                        print.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/printing-test.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">11. Test Print for Printer Verification</h5>
+                    <p>Conducted a test print to verify the printer's functionality and resolved any issues.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/installingsupport.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">12. Installing Support Icon</h5>
+                    <p>Installed a support icon on the customer's computer, allowing them to initiate future sessions
+                        with our
+                        technical team
+                        for assistance.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5" style="display: flex; flex-direction: column; align-items: center;">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/customerserviceinfo.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">13. Providing Customer Service Information</h5>
+                    <p>Provided the customer with our customer service number for future reference, ensuring they can
+                        reach out
+                        for support as
+                        needed.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid" id="Card3" style="display: none;">
+            <div class="row px-5">
+                <div class="text-center my-5">
+                    <h2 class="text-decoration-underline">Android</h2>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/pcoptimization.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">1. Android Optimization</h5>
+                    <p>Conducted a comprehensive Android optimization to enhance overall system performance.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/RemovingMaliciousExtensionsfromBrowser.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">2. Removing Malicious App</h5>
+                    <p>Identified and removed malicious browser extensions to ensure a safer online experience.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/uninstall.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">3. Uninstalling 3rd Party Apps</h5>
+                    <p>Uninstalled unnecessary 3rd party applications, improving system efficiency and decluttering the
+                        device.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/windowsstartup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">4. Optimizing Android Startup</h5>
+                    <p>Optimized Android startup to reduce boot time and improve user experience.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/installingantivirus.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">5. Installing Anti-Virus</h5>
+                    <p>Installed a reliable antivirus software to protect the smartphone from potential threats</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/adblock.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">6. Installing Ad Block</h5>
+                    <p>Added an ad blocker to the smartphone for a cleaner and faster web browsing experience.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/updateprinter.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">7. Updating Printer Drivers</h5>
+                    <p>Updated printer drivers to ensure seamless printing functionality</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/upgrade.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">8. Updating System Services</h5>
+                    <p>Checked and updated essential system services to maintain system stability.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/printersetup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">9. Printer Setup</h5>
+                    <p>Assisted the customer in setting up the printer, either via Wi-Fi or LAN cable, as per the
+                        customer's
+                        preference.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/wifiprintersetup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">10. Setting Up Wireless Printer via Phone</h5>
+                    <p>Provided assistance for setting up a wireless printer via a phone and ensured a successful test
+                        print.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/printing-test.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">11. Test Print for Printer Verification</h5>
+                    <p>Conducted a test print to verify the printer's functionality and resolved any issues.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/installingsupport.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">12. Installing Support Icon</h5>
+                    <p>Installed a support icon on the customer's Android, allowing them to initiate future sessions
+                        with our
+                        technical team for assistance.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5" style="display: flex; flex-direction: column; align-items: center;">
+                <div class="col-md-3 col-sm-6  text-center">
+                    <img src="assest/img/customerserviceinfo.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">13. Providing Customer Service Information</h5>
+                    <p>Provided the customer with our customer service number for future reference, ensuring they can
+                        reach out for support as needed.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="Card4" style="display: none;">
+            <div class="row px-5">
+                <div class="text-center my-5">
+                    <h2 class="text-decoration-underline">iOS</h2>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/pcoptimization.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">1. iOS Optimization</h5>
+                    <p>Conducted a comprehensive iOS optimization to enhance overall system performance.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/RemovingMaliciousExtensionsfromBrowser.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">2. Removing Malicious App</h5>
+                    <p>Identified and removed malicious browser extensions to ensure a safer online experience.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/uninstall.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">3. Uninstalling 3rd Party Apps</h5>
+                    <p>Uninstalled unnecessary 3rd party applications, improving system efficiency and decluttering the
+                        device.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/windowsstartup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">4. Optimizing iOS Startup</h5>
+                    <p>Optimized iOS startup to reduce boot time and improve user experience.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/installingantivirus.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">5. Installing Anti-Virus</h5>
+                    <p>Installed a reliable antivirus software to protect the smartphone from potential threats</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/adblock.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">6. Installing Ad Block</h5>
+                    <p>Added an ad blocker to the smartphone for a cleaner and faster web browsing experience.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/updateprinter.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">7. Updating Printer Drivers</h5>
+                    <p>Updated printer drivers to ensure seamless printing functionality</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/upgrade.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">8. Updating System Services</h5>
+                    <p>Checked and updated essential system services to maintain system stability.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/printersetup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">9. Printer Setup</h5>
+                    <p>Assisted the customer in setting up the printer, either via Wi-Fi or LAN cable, as per the
+                        customer's
+                        preference.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/wifiprintersetup.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">10. Setting Up Wireless Printer via Phone</h5>
+                    <p>Provided assistance for setting up a wireless printer via a phone and ensured a successful test
+                        print.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/printing-test.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">11. Test Print for Printer Verification</h5>
+                    <p>Conducted a test print to verify the printer's functionality and resolved any issues.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/installingsupport.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">12. Installing Support Icon</h5>
+                    <p>Installed a support icon on the customer's iOS, allowing them to initiate future sessions with
+                        our
+                        technical team for assistance.</p>
+                </div>
+            </div>
+
+            <div class="row px-5 mt-5" style="display: flex; flex-direction: column; align-items: center;">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <img src="assest/img/customerserviceinfo.png" alt="img" width="10%" class="mb-3">
+                    <h5 class="fw-bold mb-3">13. Providing Customer Service Information</h5>
+                    <p>Provided the customer with our customer service number for future reference, ensuring they can
+                        reach out for support as needed.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text py-2" style="background-color: rgb(245, 245, 245);">
+        <div class="container">
+            <div class="textchange">
+                <h2 class="mt-5 text-center mb-3">Our Most Popular Services</h2>
+                <h5 class="mb-5 text-center py-2">Member Price : $19.99/Month for each service</h5>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card" style="border-color: #f6934c;">
+                        <div class="card-body text-center mt-5">
+                            <h2 class="text-center mb-4">Virus<br> Removal</h2>
+                            <h2 class="mb-4"><span class="fs-5">$</span>189.99</h2>
+                            <div class="border-bottom mx-5 mb-4" style="border: 5px solid #f6934c;"></div>
+                            <h4 class="mb-5">We'll remove any virus that has infected your computer</h4>
+                            <button class="px-3 py-1 text-white fw-bold fs-5 mb-5"
+                                style="background-color: #f6934c; border: #f5ad20;">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card" style=" border-color: rgba(82,216,189,255);">
+                        <div class="card-body text-center mt-5">
+                            <h2 class="text-center mb-4">Computer<br>Setup</h2>
+                            <h2 class="mb-4"><span class="fs-5">$</span>79.99</h2>
+                            <div class="border-bottom mx-5 mb-4" style="border: 5px solid rgba(82,216,189,255);"></div>
+                            <h4 class="mb-5">We'll get your new computer set up so it's ready to use</h4>
+                            <button class="px-3 py-1 text-white fw-bold fs-5 mb-5"
+                                style="background-color: rgba(82,216,189,255); border: #f5ad20;">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card" style="border-color:#fc5e6e ;">
+                        <div class="card-body text-center mt-5">
+                            <h2 class="text-center mb-4">Speed<br> Optimization</h2>
+                            <h2 class="mb-4"><span class="fs-5">$</span>79.99</h2>
+                            <div class="border-bottom mx-5 mb-4" style="border: 5px solid #fc5e6e;"></div>
+                            <h4 class="mb-5">Tired of your computer slowing down? We'll update and optimize it.</h4>
+                            <button class="px-3 py-1 text-white fw-bold fs-5 mb-5"
+                                style="background-color:#fc5e6e; border: #f5ad20;">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card" style="border-color: #549ccd;">
+                        <div class="card-body text-center mt-5">
+                            <h2 class="text-center mb-4">Software<br> Installation</h2>
+                            <h2 class="mb-4"><span class="fs-5">$</span>29.99</h2>
+                            <div class="border-bottom mx-5 mb-4" style="border: 5px solid #549ccd;"></div>
+                            <h4 class="mb-5">We'll install new software onto your computer.</h4>
+                            <button class="px-3 py-1 text-white fw-bold fs-5 mb-5"
+                                style="background-color: #549ccd; border: #549ccd;">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row py-4" style="justify-content: center;">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card" style=" border-color: #f6934c;">
+                        <div class="card-body text-center mt-5">
+                            <h2 class="text-center mb-4">Network<br> Setup</h2>
+                            <h2 class="mb-4"><span class="fs-5">$</span>79.99</h2>
+                            <div class="border-bottom mx-5 mb-4" style="border: 5px solid #f6934c;"></div>
+                            <h4 class="mb-5">We’ll help you set up and configure your home network.</h4>
+                            <button class="px-3 py-1 text-white fw-bold fs-5 mb-5"
+                                style="background-color: #f6934c; border: #f5ad20;">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card" style=" border-color: rgba(82,216,189,255);">
+                        <div class="card-body text-center mt-5">
+                            <h2 class="text-center mb-4">Data<br> Transfer</h2>
+                            <h2 class="mb-4"><span class="fs-5">$</span>99.99</h2>
+                            <div class="border-bottom mx-5 mb-4" style="border: 5px solid rgba(82,216,189,255);"></div>
+                            <h4 class="mb-5">Switching to a new computer? We’ll transfer or back up your data.</h4>
+                            <button class="px-3 py-1 text-white fw-bold fs-5 mb-5"
+                                style="background-color: rgba(82,216,189,255); border: #f5ad20;">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card" style=" border-color: #fc5e6e;">
+                        <div class="card-body text-center mt-5">
+                            <h2 class="text-center mb-4">Quick<br> Fix</h2>
+                            <h2 class="mb-4"><span class="fs-5">$</span>39.99</h2>
+                            <div class="border-bottom mx-5 mb-4" style="border: 5px solid #fc5e6e;"></div>
+                            <h4 class="mb-5">We’ll handal issus like resetting password, Wi-Fi problems, and more.</h4>
+                            <button class="px-3 py-1 text-white fw-bold fs-5 mb-5"
+                                style="background-color: #fc5e6e; border: #f5ad20;">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <h5 class="text-center fw-bold p-3 text-light  mb-4" style="background-color: #1ab68a">*T&C: Get each
+                service at just $19.99 on a yearly recurring payment plan.</h5>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <section class="my-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-10 col-xl-8 text-center">
+                        <h3 class="mb-4">Testimonials</h3>
+                        <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                            numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
+                            quisquam eum porro a pariatur veniam.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row text-center d-flex align-items-stretch">
+                    <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                        <div class="card testimonial-card">
+                            <div class="card-up" style="background-color: #9d789b;"></div>
+                            <div class="avatar mx-auto bg-white">
+                                <img src="assest/img/testi1.webp" class="rounded-circle img-fluid" />
+                            </div>
+                            <div class="card-body">
+                                <h4 class="mb-4">Maria Smantha</h4>
+                                <hr />
+                                <p class="dark-grey-text mt-4">
+                                    <i class="fas fa-quote-left pe-2"></i>I can't thank this team enough for their virus
+                                    removal service. My computer was a mess, and they cleaned it up
+                                    efficiently. It feels brand new! Well worth the price.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                        <div class="card testimonial-card">
+                            <div class="card-up" style="background-color: #7a81a8;"></div>
+                            <div class="avatar mx-auto bg-white">
+                                <img src="assest/img/testi2.webp" class="rounded-circle img-fluid" />
+                            </div>
+                            <div class="card-body">
+                                <h4 class="mb-4">Lisa Cudrow</h4>
+                                <hr />
+                                <p class="dark-grey-text mt-4">
+                                    <i class="fas fa-quote-left pe-2"></i>The computer setup service was a breeze. They
+                                    had my new PC up and running in no time. The technician was friendly and
+                                    patient with my questions.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-0 d-flex align-items-stretch">
+                        <div class="card testimonial-card">
+                            <div class="card-up" style="background-color: #6d5b98;"></div>
+                            <div class="avatar mx-auto bg-white">
+                                <img src="assest/img/testi3.webp" class="rounded-circle img-fluid" />
+                            </div>
+                            <div class="card-body">
+                                <h4 class="mb-4">John Smith</h4>
+                                <hr />
+                                <p class="dark-grey-text mt-4">
+                                    <i class="fas fa-quote-left pe-2"></i>My computer was sluggish, but after the speed
+                                    optimization service, it's like a rocket! The team knew exactly what to
+                                    do. Great value for money.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <div class="page7 pt-5" style="background-color: rgb(245, 245, 245);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <p style="font-size: 40px;">Subscribe to our Newsletter
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <!-- <div class="box">
+                        <input type="text" name="" placeholder="Enter email">
+                        <button class="box1">Subscribe</button>
+                    </div> -->
+
+                    <div class="offset-md-4 mt-5pt-3">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter email"
+                                aria-label="Recipient's username">
+                            <div class="input-group-append">
+                                <span class="input-group-text">Subscribe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-md-3">
+                    <img class="mb-5" src="assest/img/logo-2.png" alt="logo" width="70%">
+                    <div class="mb-3" style="font-size: 20px;">
+                        <i class="fa-brands fa-facebook-f me-2"></i>
+                        <i class="fa-brands fa-instagram me-2"></i>
+                        <i class="fa-brands fa-twitter me-2"></i>
+                        <i class="fa-brands fa-linkedin me-2"></i>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <h5 class="mb-5">Quick Links</h5>
+                    <p>Home</p>
+                    <p>Portfolio</p>
+                    <p>Services</p>
+                    <p>Contact Us</p>
+
+                </div>
+                <div class="col-md-3">
+                    <h5 class="mb-5">Solutions</h5>
+                    <p>Terms of Use</p>
+                    <p>Privacy Policy</p>
+                    <p>Cookie Policy</p>
+
+                </div>
+                <div class="col-md-3">
+                    <h5 class="mb-5">Connect</h5>
+                    <p><span style="font-weight: bold;">Mail : </span>info@zonewebsitites.us</p>
+                    <p><span style="font-weight: bold;">Phone : </span> +1 9876543210</p>
+                    <p><span style="font-weight: bold;">Address : </span> Lackland Ave, Piscataway, NJ 08854, United
+                        States</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-2">
+                    <div class="border-bottom" style="border: 2px solid black;"></div>
+                    <p class="text-center mt-3">2023 All Right Reserved @ZoneWebsites</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assest/js/script.js"></script>
+
+</body>
+
+</html>
