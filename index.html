@@ -7,6 +7,8 @@
     <title>Nifty</title>
     <!-- Custome CSS Add -->
     <link rel="stylesheet" href="assest/css/style.css">
+    <!-- Responsive CSS Add -->
+    <link rel="stylesheet" href="assest/css/responsive.css">
     <!-- Font Add -->
     <link
         href="https://fonts.googleapis.com/css2?family=Hind&family=Lato&family=Montserrat:wght@400;500;700&family=Playfair+Display&family=Poppins&family">
@@ -15,31 +17,37 @@
 </head>
 
 <body>
-
-    <div class="background-image">
-        <nav class="transparent-navbar">
-            <nav>
-                <div class="logo">
-                    <img src="assest/img/logo-2.png" alt="img" width="60%">
-                </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Digital Marketing</a></li>
-                    <li><a href="#">Contact Us</a></li>
+    <!-- Deepak Write This Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <img src="assest/img/logo-2.png" alt="" id="navlogo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href=#photo1>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Digital Marketing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact Us</a>
+                    </li>
                 </ul>
-                <div class="buttonX">
-                    <button class="px-3 py-1 fs-5"
-                        style="background-color: #f5ab1b; color: #fff; border-color: #f5ab1b; border-radius: 5px;">Start
-                        Chat</button>
-                </div>
-                <div class="hamburger-menu" onclick="toggleMenu()">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
-        </nav>
-    </div>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar End-->
+    
     <!-- Slider -->
     <div class="container-fluid p-0">
         <div class="image-container" id="photo1"
@@ -85,17 +93,18 @@
         </div>
 
         <div class="image-container" id="photo5"
-            style="background: url('assest/img/banner-5.jpg'); width: 100%;height: 810px; background-size: cover; background-position:center;">
+            style="background: url('assest/img/tab-b.webp'); width: 100%;height: 810px; background-size: cover; background-position:center;">
             <div class="image-text">
                 <h2>Tablet</h2>
-                <p>A 10-inch tablet features a 10-inch diagonal touchscreen display, usually with an LCD or OLED panel. </p>
+                <p>A 10-inch tablet features a 10-inch diagonal touchscreen display, usually with an LCD or OLED panel.
+                </p>
                 <button class="px-3 py-1 fs-5 mt-4 buttonY">Start Chat</button>
                 <button class="px-3 py-1 fs-5 mt-4 buttonZ">Contact Us</button>
             </div>
         </div>
 
         <div class="image-container" id="photo6"
-            style="background: url('assest/img/banner-6.jpg'); width: 100%;height: 810px; background-size: cover; background-position:center;">
+            style="background: url('assest/img/chrome-b.webp'); width: 100%;height: 810px; background-size: cover; background-position:center;">
             <div class="image-text">
                 <h2>Chromebook</h2>
                 <p>Experience a smoother and faster iOS device with our optimization services.</p>
@@ -105,7 +114,7 @@
         </div>
 
         <div class="image-container" id="photo7"
-            style="background: url('assest/img/Banner-7.jpg'); width: 100%;height: 810px; background-size: cover; background-position:center;">
+            style="background: url('assest/img/printer-b.webp'); width: 100%;height: 810px; background-size: cover; background-position:center;">
             <div class="image-text">
                 <h2>Printer</h2>
                 <p>Experience a smoother and faster iOS device with our optimization services.</p>
@@ -123,46 +132,46 @@
         <input type="radio" name="imageSelection" value="1" id="radio1" onclick="showPhoto(1);showImage(1);showCard(1)">
 
         <label for="radio1">
-            <img class="d-lg-none d-sm-block" src="./assest/img/windows1.png">
+            <img class="d-lg-none d-sm-block rounded-circle" src="/assest/img/icons/Windows _11zon.webp">
             <span class="d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align: center; ">Windows</span>
         </label>
 
         <input type="radio" name="imageSelection" value="2" id="radio2" onclick="showPhoto(2);showImage(2);showCard(2)">
 
         <label for="radio2">
-            <img class="d-lg-none d-sm-block" src="assest/img/computer.png">
+            <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Mac_11zon.webp">
             <span class=" d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align: center;">Mac</span>
         </label>
 
         <input type="radio" name="imageSelection" value="3" id="radio3" onclick="showPhoto(3);showImage(3);showCard(3)">
 
         <label for="radio3">
-            <img class="d-lg-none d-sm-block" src="assest/img/android3.png">
+            <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Android_11zon.webp">
             <span class="d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align: center;">Android</span>
         </label>
 
         <input type="radio" name="imageSelection" value="4" id="radio4" onclick="showPhoto(4);showImage(4);showCard(4)">
 
         <label for="radio4">
-            <img class="d-lg-none d-sm-block" src="assest/img/apple.png">
+            <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Icon 512 X 512 (1)_11zon.webp">
             <span class="d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align:center;">iOS</span>
         </label>
 
         <input type="radio" name="imageSelection" value="5" id="radio5" onclick="showPhoto(5);showImage(5);showCard(5)">
         <label for="radio5">
-            <img class="d-lg-none d-sm-block" src="assest/img/tablet.png">
+            <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Tablet _11zon.webp">
             <span class="d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align:center;">Tablet</span>
         </label>
 
-        <input type="radio" name="imageSelection" value="6" id="radio6" onclick="showPhoto(6);showImage(6);showCard(6)">
+        <input type="radio" name="imageSelection " value="6" id="radio6" onclick="showPhoto(6);showImage(6);showCard(6)">
         <label for="radio6">
-            <img class="d-lg-none d-sm-block" src="assest/img/chromeicon.png">
+            <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Chromebook_11zon.webp">
             <span class="d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align:center;">Chromebook</span>
         </label>
-    
+
         <input type="radio" name="imageSelection" value="7" id="radio7" onclick="showPhoto(7);showImage(7);showCard(7)">
         <label for="radio7">
-            <img class="d-lg-none d-sm-block" src="assest/img/printer.png">
+            <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Printer_11zon.webp">
             <span class="d-none d-sm-none d-lg-block fw-bold fs-5 mx-2" style="text-align:center;">Printer</span>
         </label>
 
