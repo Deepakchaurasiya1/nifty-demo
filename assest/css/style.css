@@ -13,10 +13,11 @@
 .navbar-nav{
     font-size: 18px;
     font-weight: 600;
-    line-height: 29px;
+    line-height: 29px;   
 }
 .nav-link{   
     padding: 20px !important;        
+    color: white !important;
 }
 /* Navbar Hover Color Change */
 .nav-link:hover{   
@@ -28,8 +29,8 @@
 }
 /* Navbar Button */
 .hbtn{
-    border: none;
-    color: black;
+    border: none;   
+    color: white;
     font-size: 18px;
     margin-left: 7%;  
     font-weight: 600;
@@ -39,7 +40,7 @@
     background-color: #f5ab1b;    
 }
 .hbtn:hover{
-    color:white;    
+    color:black;    
     background-color: #19b68b;       
 }
 /* Windows Mac Android iOS Tablet Chromebook Printer Heading */
