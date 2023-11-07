@@ -1,8 +1,5 @@
    /* Navbar Logo */
-   @media screen and (max-width:1000px) {
-       #navlogo {
-           width: 50%;
-       }
+   @media screen and (max-width:1000px) {      
 
        .nav-link {
            padding: 10px !important;
