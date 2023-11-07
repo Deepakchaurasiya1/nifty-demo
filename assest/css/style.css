@@ -153,12 +153,13 @@
 .radio-button label {
     display: block;
     cursor: pointer;
-    position: relative;
-    background-color: #fff;
+    position: relative;    
     border: 1px solid #000;
     margin-left: 40%;
-    border-color: black;
+    color: white;
+    border-color: #33b592;
     border-radius: 5px;
+    backdrop-filter: blur(20px);
 }
 
 .radio-button img {

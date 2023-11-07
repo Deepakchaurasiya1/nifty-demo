@@ -24,16 +24,35 @@
        }
        /* Slider Side Button */
        .radio-button {
-           margin-left: 65%;
+           margin-left: 79%;
        }
-
+      /* Demo Work */
+      .radio-button label {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        background-color: none !important;
+        border: 1px solid #000;
+        margin-left: 40%;       
+        border-color: black;
+        border-radius: 5px;
+    }
+   }
+   @media screen and (max-width:700px) {
+     /* Slider Side Button */
+     .radio-button {
+        margin-left: 60%;
+    }
+    
    }
 
    /* Navbar Button Hidden */
    @media screen and (max-width:1200px) {
        .hbtn {
            display: none;
-
+       }
+       .radio-button label{
+        margin-left: 67px;
        }
 
    }
