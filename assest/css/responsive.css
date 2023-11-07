@@ -1,11 +1,14 @@
    
-   /* Navbar Logo */
-   
+   /* Navbar Logo */   
 @media screen and (max-width:1000px) {
     #navlogo {
         width: 50%;
     }
     .nav-link{
         padding: 10px !important;       
+    }
+    /* Navbar Button */
+    .hbtn{
+        margin-left: 0%;
     }
 }

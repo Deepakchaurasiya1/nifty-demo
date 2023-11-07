@@ -8,10 +8,10 @@
 /* Deepak Write This Code */
 #navlogo{
     width: 20%;
-    margin-right: 10%;
+    margin-right: 7%;
 }
 .navbar-nav{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 29px;
 }
@@ -26,6 +26,75 @@
 .nav-link:active{   
     color: #f5ab1b !important;  
 }
+/* Navbar Button */
+.hbtn{
+    border: none;
+    color: black;
+    font-size: 22px;
+    margin-left: 7%;  
+    font-weight: 600;
+    line-height: 29px;  
+    padding: 5px 15px;
+    border-radius: 50px;  
+    background-color: #f5ab1b;    
+}
+.hbtn:hover{
+    color:white;    
+    background-color: #19b68b;       
+}
+/* Windows Mac Android iOS Tablet Chromebook Printer Heading */
+.sheading{
+   font-size: 44px;
+   font-weight: 700;
+   line-height: 57px; 
+}
+/* Slider Section P Heading */
+.sliderp{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px; 
+   font-family: Poppins;
+}
+/* Side Button Slider */
+.sidebnt{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+}
+/* Slider Upper Button */
+.buttonY {
+    margin: 5px;  
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;  
+    padding: 5px 15px;
+    border-radius: 50px;  
+    background-color: #f5ab1b;
+}
+.buttonZ {
+    margin: 5px;  
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 5px 15px;  
+    border-radius: 50px;
+    background-color: #19b68b;   
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -59,19 +128,6 @@
     border-radius: 5px;
 }
 
-.buttonY {
-    background-color: #f5ab1b;
-    color: #fff;
-    border-color: #f5ab1b;
-    border-radius: 5px;
-}
-
-.buttonZ {
-    background-color: #19b68b;
-    color: #fff;
-    border-color: #19b68b;
-    border-radius: 5px;
-}
 
 
 .image-text h2 {
@@ -257,19 +313,6 @@
     .textchange h5 {
         font-size: 20px;
     }
-}
-/* Windows Mac Android iOS Tablet Chromebook Printer Heading */
-.sheading{
-   font-size: 44px;
-   font-weight: 700;
-   line-height: 57px; 
-}
-/* Slider Section P Heading */
-.sliderp{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 29px; 
-   font-family: Poppins;
 }
 
 
