@@ -11,4 +11,12 @@
     .hbtn{
         margin-left: 0%;
     }
+    /* Slider Main Heading */
+    .sheading{
+        font-size: 44px !important;
+    }
+    /* Slider Paragraphs */
+    .sliderp{
+        font-size: 22px !important;       
+    }
 }

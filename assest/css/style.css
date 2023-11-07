@@ -11,7 +11,7 @@
     margin-right: 7%;
 }
 .navbar-nav{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 29px;
 }
@@ -30,7 +30,7 @@
 .hbtn{
     border: none;
     color: black;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 7%;  
     font-weight: 600;
     line-height: 29px;  
@@ -51,15 +51,16 @@
 /* Slider Section P Heading */
 .sliderp{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 500;    
     line-height: 29px; 
-   font-family: Poppins;
+    font-family: Poppins,sans-serif;
+   
 }
 /* Side Button Slider */
 .sidebnt{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
-    line-height: 50px;
+    /* line-height: 50px; */
     text-align: center;
 }
 /* Slider Upper Button */
@@ -67,7 +68,7 @@
     margin: 5px;  
     border: none;
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 35px;  
     padding: 5px 15px;
@@ -78,14 +79,13 @@
     margin: 5px;  
     border: none;
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 35px;
     padding: 5px 15px;  
     border-radius: 50px;
     background-color: #19b68b;   
 }
-
 
 
 
@@ -128,70 +128,7 @@
     border-radius: 5px;
 }
 
-
-
-.image-text h2 {
-    font-size: 72px;
-}
-
-.image-text p {
-    font-size: 30px;
-}
-
-@media screen and (max-width:1660px) {
-    .image-text h2 {
-        font-size: 52px;
-    }
-
-    .image-text p {
-        font-size: 22px;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    .image-text h2 {
-        font-size: 42px;
-    }
-
-    .image-text p {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width:841px) {
-
-    .image-text {
-        top: 60%;
-        left: 40%;
-        padding: 10px;
-    }
-
-    .image-text h2 {
-        font-size: 32px;
-    }
-
-    .image-text p {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width:450px) {
-    .image-text {
-        top: 60%;
-        left: 40%;
-        padding: 10px;
-    }
-
-    .image-text h2 {
-        font-size: 22px;
-
-    }
-
-    .image-text p {
-        font-size: 14px;
-
-    }
-}
+/* Shashi Code Write Here TO Down */
 
 .image-container {
     position: relative;
