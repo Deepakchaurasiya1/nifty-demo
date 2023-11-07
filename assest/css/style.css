@@ -229,43 +229,6 @@
     border-radius: 50%;
 }
 
-/* .box {
-     height: 50px;
-     width: 83%;
-     background-color: white;
-     border-radius: 30px;
-     display: flex;
-     align-items: center;
-     padding: 20px;
-     margin: auto;
-     margin-top: 2%;
- }
-
- .box>input {
-     flex: 1;
-     height: 40px;
-     border: none;
-     outline: none;
-     font-size: 18px;
-     padding-left: 20px;
- }
-
- .box1 {
-     height: 40px;
-     text-align: center;
-     background-color: black;
-     color: #fff;
-     font-weight: 600;
-     border-radius: 30px;
-     display: flex;
-     align-items: center;
-     padding: 20px;
- }
-
- .box1:hover {
-     background-color: rgb(71, 70, 70);
- } */
-
 .textchange h2 {
     font-size: 62px;
 }
@@ -295,6 +258,18 @@
         font-size: 20px;
     }
 }
-
+/* Windows Mac Android iOS Tablet Chromebook Printer Heading */
+.sheading{
+   font-size: 44px;
+   font-weight: 700;
+   line-height: 57px; 
+}
+/* Slider Section P Heading */
+.sliderp{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px; 
+   font-family: Poppins;
+}
 
 
