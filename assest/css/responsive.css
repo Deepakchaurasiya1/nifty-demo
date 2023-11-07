@@ -20,3 +20,11 @@
         font-size: 22px !important;       
     }
 }
+/* Navbar Button Hidden */
+@media screen and (max-width:1200px) {
+    .hbtn{
+        display: none;
+
+    }
+    
+}
