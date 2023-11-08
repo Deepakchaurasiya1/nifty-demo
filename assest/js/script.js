@@ -39,3 +39,103 @@ function init() {
 
 window.addEventListener('load', init);
 
+// Write This Code Deepak Try Side Button Scroll 
+window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const container = document.getElementById('scroll-container1');        
+    if (scrollPosition < 500) {       
+        container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
+        container.style.backdropFilter = 'blur(2px)';
+    } else if (scrollPosition < 1000) {
+        container.style.backgroundColor = 'black';
+    } else if (scrollPosition < 1500) {
+        container.style.backgroundColor = 'black';
+    } else {
+        container.style.backgroundColor = 'black';
+    }
+});
+window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const container = document.getElementById('scroll-container2');       
+    if (scrollPosition < 500) {       
+        container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
+        container.style.backdropFilter = 'blur(2px)';
+    } else if (scrollPosition < 1000) {
+        container.style.backgroundColor = 'black';
+    } else if (scrollPosition < 1500) {
+        container.style.backgroundColor = 'black';
+    } else {
+        container.style.backgroundColor = 'black';
+    }
+});
+window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const container = document.getElementById('scroll-container3');        
+    if (scrollPosition < 500) {       
+        container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
+        container.style.backdropFilter = 'blur(2px)';
+    } else if (scrollPosition < 1000) {
+        container.style.backgroundColor = 'black';
+    } else if (scrollPosition < 1500) {
+        container.style.backgroundColor = 'black';
+    } else {
+        container.style.backgroundColor = 'black';
+    }
+});
+window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const container = document.getElementById('scroll-container4');        
+    if (scrollPosition < 500) {       
+        container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
+        container.style.backdropFilter = 'blur(2px)';
+    } else if (scrollPosition < 1000) {
+        container.style.backgroundColor = 'black';
+    } else if (scrollPosition < 1500) {
+        container.style.backgroundColor = 'black';
+    } else {
+        container.style.backgroundColor = 'black';
+    }
+});
+window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const container = document.getElementById('scroll-container5');        
+    if (scrollPosition < 500) {       
+        container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
+        container.style.backdropFilter = 'blur(2px)';
+    } else if (scrollPosition < 1000) {
+        container.style.backgroundColor = 'black';
+    } else if (scrollPosition < 1500) {
+        container.style.backgroundColor = 'black';
+    } else {
+        container.style.backgroundColor = 'black';
+    }
+});
+window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const container = document.getElementById('scroll-container6');        
+    if (scrollPosition < 500) {       
+        container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
+        container.style.backdropFilter = 'blur(2px)';
+    } else if (scrollPosition < 1000) {
+        container.style.backgroundColor = 'black';
+    } else if (scrollPosition < 1500) {
+        container.style.backgroundColor = 'black';
+    } else {
+        container.style.backgroundColor = 'black';
+    }
+});
+window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const container = document.getElementById('scroll-container7');        
+    if (scrollPosition < 500) {       
+        container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
+        container.style.backdropFilter = 'blur(2px)';
+    } else if (scrollPosition < 1000) {
+        container.style.backgroundColor = 'black';
+    } else if (scrollPosition < 1500) {
+        container.style.backgroundColor = 'black';
+    } else {
+        container.style.backgroundColor = 'black';
+    }
+});
+

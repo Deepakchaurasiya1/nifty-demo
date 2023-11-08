@@ -1,6 +1,7 @@
    /* Navbar Logo */
    @media screen and (max-width:1000px) {      
 
+    
        .nav-link {
            padding: 10px !important;
        }
@@ -23,7 +24,7 @@
        .radio-button {
            margin-left: 79%;
        }
-      /* Demo Work */
+      
       .radio-button label {
         display: block;
         cursor: pointer;

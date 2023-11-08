@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nifty</title>
+    <title>WinspeedPRO</title>
     <!-- Custome CSS Add -->
     <link rel="stylesheet" href="assest/css/style.css">
     <!-- Responsive CSS Add -->
@@ -55,8 +55,7 @@
             style="background: url('assest/img/windowzon.webp'); width: 100%;height: 500px; background-size: cover; background-position:center;">
             <div class="image-text">
                 <h2 class="sheading">Windows Performance Boost</h2>
-                <p class="sliderp">Experience lightning-fast computing with our comprehensive PC optimization
-                    services.</p>
+                <p class="sliderp">Experience lightning-fast computing with our comprehensive PC optimization services. </p>               
                 <button class="buttonY">Start Chat</button>
                 <button class="buttonZ">Contact Us</button>
             </div>
@@ -97,7 +96,8 @@
             style="background: url('assest/img/tab-b.webp'); width: 100%;height: 500px; background-size: cover; background-position:center;">
             <div class="image-text">
                 <h2 class="sheading">Tablet</h2>
-                <p class="sliderp">A 10-inch tablet features a 10-inch diagonal touchscreen display, usually with an LCD or OLED panel.
+                <p class="sliderp">A 10-inch tablet features a 10-inch diagonal touchscreen display, usually with an LCD
+                    or OLED panel.
                 </p>
                 <button class="buttonY">Start Chat</button>
                 <button class="buttonZ">Contact Us</button>
@@ -123,56 +123,54 @@
                 <button class="buttonZ">Contact Us</button>
             </div>
         </div>
-
     </div>
 
     <!-- Slider Side Button -->
 
-    <div class="radio-button" style="line-height: 2.5;">
+    <div class="radio-button" style="line-height: 2.5; position:fixed;">
 
         <input type="radio" name="imageSelection" value="1" id="radio1" onclick="showPhoto(1);showImage(1);showCard(1)">
 
-        <label for="radio1">
-            <img class="d-lg-none d-sm-block rounded-circle" src="/assest/img/icons/Windows _11zon.webp">
+        <label for="radio1" id="scroll-container1">
+            <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Windows _11zon.webp">
             <span class="d-none d-sm-none d-lg-block mx-2 sidebnt">Windows</span>
         </label>
 
         <input type="radio" name="imageSelection" value="2" id="radio2" onclick="showPhoto(2);showImage(2);showCard(2)">
 
-        <label for="radio2">
+        <label for="radio2" id="scroll-container2">
             <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Mac_11zon.webp">
             <span class=" d-none d-sm-none d-lg-block sidebnt">Mac</span>
         </label>
 
         <input type="radio" name="imageSelection" value="3" id="radio3" onclick="showPhoto(3);showImage(3);showCard(3)">
 
-        <label for="radio3">
+        <label for="radio3" id="scroll-container3">
             <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Android_11zon.webp">
             <span class="d-none d-sm-none d-lg-block sidebnt">Android</span>
         </label>
 
         <input type="radio" name="imageSelection" value="4" id="radio4" onclick="showPhoto(4);showImage(4);showCard(4)">
 
-        <label for="radio4">
+        <label for="radio4" id="scroll-container4">
             <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Icon 512 X 512 (1)_11zon.webp">
             <span class="d-none d-sm-none d-lg-block sidebnt">iOS</span>
         </label>
 
         <input type="radio" name="imageSelection" value="5" id="radio5" onclick="showPhoto(5);showImage(5);showCard(5)">
-        <label for="radio5">
+        <label for="radio5" id="scroll-container5">
             <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Tablet _11zon.webp">
             <span class="d-none d-sm-none d-lg-block sidebnt">Tablet</span>
         </label>
 
-        <input type="radio" name="imageSelection " value="6" id="radio6"
-            onclick="showPhoto(6);showImage(6);showCard(6)">
-        <label for="radio6">
+        <input type="radio" name="imageSelection" value="6" id="radio6" onclick="showPhoto(6);showImage(6);showCard(6)">
+        <label for="radio6" id="scroll-container6">
             <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Chromebook_11zon.webp">
             <span class="d-none d-sm-none d-lg-block sidebnt">Chromebook</span>
         </label>
 
         <input type="radio" name="imageSelection" value="7" id="radio7" onclick="showPhoto(7);showImage(7);showCard(7)">
-        <label for="radio7">
+        <label for="radio7" id="scroll-container7">
             <img class="d-lg-none d-sm-block rounded-circle" src="assest/img/icons/Printer_11zon.webp">
             <span class="d-none d-sm-none d-lg-block sidebnt">Printer</span>
         </label>
@@ -217,9 +215,9 @@
         <div class="row mt-5">
             <div class="col-md-12">
                 <img src="assest/img/Zone websites windows.png" alt="img" id="image1" width="100%">
-                <img src="assest/img/Mac.png" alt="img" id="image2" width="100%" style="display: none;">
-                <img src="assest/img/Android.png" alt="img" id="image3" width="100%" style="display: none;">
-                <img src="assest/img/iOS.png" alt="img" id="image4" width="100%" style="display: none;">
+                <img src="assest/img/mac-new.jpg" alt="img" id="image2" width="100%" style="display: none;">
+                <img src="assest/img/android-new.png" alt="img" id="image3" width="100%" style="display: none;">
+                <img src="assest/img/ios-new.png" alt="img" id="image4" width="100%" style="display: none;">
                 <img src="assest/img/iOS.png" alt="img" id="image5" width="100%" style="display: none;">
                 <img src="assest/img/iOS.png" alt="img" id="image6" width="100%" style="display: none;">
                 <img src="assest/img/iOS.png" alt="img" id="image7" width="100%" style="display: none;">
@@ -237,17 +235,20 @@
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/pcoptimization.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">1. PC Optimization</h5>
-                    <p class="sliderp">Conducted a comprehensive PC optimization to enhance overall system performance.</p>
+                    <p class="sliderp">Conducted a comprehensive PC optimization to enhance overall system performance.
+                    </p>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/RemovingMaliciousExtensionsfromBrowser.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">2. Removing Malicious Extensions from Browser</h5>
-                    <p class="sliderp">Identified and removed malicious browser extensions to ensure a safer online experience.</p>
+                    <p class="sliderp">Identified and removed malicious browser extensions to ensure a safer online
+                        experience.</p>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/uninstall.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">3. Uninstalling 3rd Party Applications</h5>
-                    <p class="sliderp">Uninstalled unnecessary 3rd party applications, improving system efficiency and decluttering the
+                    <p class="sliderp">Uninstalled unnecessary 3rd party applications, improving system efficiency and
+                        decluttering the
                         PC.</p>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
@@ -261,17 +262,20 @@
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/installingantivirus.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">5. Installing Anti-Virus</h5>
-                    <p class="sliderp">Installed a reliable antivirus software to protect the system from potential threats</p>
+                    <p class="sliderp">Installed a reliable antivirus software to protect the system from potential
+                        threats</p>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/adblock.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">6. Installing Ad Block</h5>
-                    <p class="sliderp">Added an ad blocker to the browser for a cleaner and faster web browsing experience.</p>
+                    <p class="sliderp">Added an ad blocker to the browser for a cleaner and faster web browsing
+                        experience.</p>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/updateprinter.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">7. Updating Printer Drivers</h5>
-                    <p class="sliderp">Uninstalled unnecessary 3rd party applications, improving system efficiency and decluttering the
+                    <p class="sliderp">Uninstalled unnecessary 3rd party applications, improving system efficiency and
+                        decluttering the
                         PC.</p>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
@@ -285,26 +289,30 @@
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/printersetup.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">9. Printer Setup (Wi-Fi or LAN)</h5>
-                    <p class="sliderp">Assisted the customer in setting up the printer, either via Wi-Fi or LAN cable, as per the
+                    <p class="sliderp">Assisted the customer in setting up the printer, either via Wi-Fi or LAN cable,
+                        as per the
                         customer's
                         preference.</p>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/wifiprintersetup.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">10. Setting Up Wireless Printer via Phone</h5>
-                    <p class="sliderp">Provided assistance for setting up a wireless printer via a phone and ensured a successful test
+                    <p class="sliderp">Provided assistance for setting up a wireless printer via a phone and ensured a
+                        successful test
                         print.
                     </p>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/printing-test.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">11. Test Print for Printer Verification</h5>
-                    <p class="sliderp">Conducted a test print to verify the printer's functionality and resolved any issues.</p>
+                    <p class="sliderp">Conducted a test print to verify the printer's functionality and resolved any
+                        issues.</p>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/installingsupport.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">12. Installing Support Icon</h5>
-                    <p class="sliderp">Installed a support icon on the customer's computer, allowing them to initiate future sessions
+                    <p class="sliderp">Installed a support icon on the customer's computer, allowing them to initiate
+                        future sessions
                         with our technical team for assistance.</p>
                 </div>
             </div>
@@ -313,7 +321,8 @@
                 <div class="col-md-3 col-sm-6 text-center">
                     <img src="assest/img/customerserviceinfo.png" alt="img" width="10%" class="mb-3">
                     <h5 class="sidebnt">13. Providing Customer Service Information</h5>
-                    <p class="sliderp">Provided the customer with our customer service number for future reference, ensuring they can
+                    <p class="sliderp">Provided the customer with our customer service number for future reference,
+                        ensuring they can
                         reach out
                         for support as
                         needed.</p>
@@ -1062,7 +1071,7 @@
                     <p class="sheading text-light">Subscribe to our Newsletter
                     </p>
                 </div>
-                <div class="col-md-6">               
+                <div class="col-md-6">
                     <div class="offset-md-4 mt-5pt-3">
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Enter email"
@@ -1077,7 +1086,7 @@
 
             <div class="row py-5">
                 <div class="col-md-3">
-                    <img class="mb-5 bg-dark"  src="assest/img/logo.png" alt="logo">
+                    <img class="mb-5 bg-dark" src="assest/img/logo.png" alt="logo">
                     <div class="mb-3" style="font-size: 20px;">
                         <i class="fa-brands fa-facebook-f me-2"></i>
                         <i class="fa-brands fa-instagram me-2"></i>
