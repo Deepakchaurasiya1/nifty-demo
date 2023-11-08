@@ -7,85 +7,98 @@
 
 /* Navbar Logo */
 /* Deepak Write This Code */
-#navlogo{   
+#navlogo {
     margin-right: 7%;
 }
-.navbar-nav{
+
+.navbar-nav {
     font-size: 18px;
-    font-weight: 600;  
-    font-family: Montserrat;     
+    font-weight: 600;
+    font-family: Montserrat;
 }
-.nav-link{   
-    padding: 20px !important;        
+
+.nav-link {
+    padding: 20px !important;
     color: white !important;
 }
+
 /* Navbar Hover Color Change */
-.nav-link:hover{   
-    color: #566db0 !important;  
+.nav-link:hover {
+    color: #566db0 !important;
 }
+
 /* Navbar Active Color */
-.nav-link:active{   
-    color: #f5ab1b !important;  
+.nav-link:active {
+    color: #f5ab1b !important;
 }
+
 /* Navbar Button */
-.hbtn{
-    border: none;   
+.hbtn {
+    border: none;
     color: white;
     font-size: 18px;
-    margin-left: 7%;  
+    margin-left: 7%;
     font-weight: 600;
-    line-height: 29px;  
+    line-height: 29px;
     padding: 5px 15px;
-    border-radius: 50px;  
-    background-color: #f5ab1b;    
-}
-.hbtn:hover{
-    color:black;    
-    background-color: #19b68b;       
-}
-/* Windows Mac Android iOS Tablet Chromebook Printer Heading */
-.sheading{
-   font-size: 44px;
-   font-weight: 700;
-   line-height: 57px; 
-   font-family: Montserrat;   
-}
-/* Slider Section P Heading */
-.sliderp{
-    font-size: 16px;
-    font-weight: 500;       
-    font-family: Poppins !important;
-   
-}
-/* Side Button Slider */
-.sidebnt{
-    font-size: 20px;
-    font-weight: 600;    
-    text-align: center;  
-    font-family: Montserrat;       
-}
-/* Slider Upper Button */
-.buttonY {
-    margin: 5px;  
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 35px;  
-    padding: 5px 15px;
-    border-radius: 50px;  
+    border-radius: 50px;
     background-color: #f5ab1b;
 }
-.buttonZ {
-    margin: 5px;  
+
+.hbtn:hover {
+    color: black;
+    background-color: #19b68b;
+}
+
+/* Windows Mac Android iOS Tablet Chromebook Printer Heading */
+.sheading {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57px;
+    font-family: Montserrat;
+}
+
+/* Slider Section P Heading */
+.sliderp {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins !important;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* Side Button Slider */
+.sidebnt {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+/* Slider Upper Button */
+.buttonY {
+    margin: 5px;
     border: none;
     color: #fff;
     font-size: 20px;
     font-weight: 600;
     line-height: 35px;
-    padding: 5px 15px;  
+    padding: 5px 15px;
     border-radius: 50px;
-    background-color: #19b68b;   
+    background-color: #f5ab1b;
+}
+
+.buttonZ {
+    margin: 5px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color: #19b68b;
 }
 
 .hamburger-menu {
@@ -118,12 +131,35 @@
     border-radius: 5px;
 }
 
+/* Member Price : $19.99/Month for each */
+.textchange h5{
+    font-size: 22px;
+    font-weight: 800;
+    font-family: Montserrat;
+    color: white;
+    background-color: #1ab68a;
+}
+
+.subheding {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 29px;
+    font-family: Montserrat;  
+}
+
+
+
+
+
+
+
+
 /* Shashi Code Write Here TO Down */
 
 .image-container {
     position: relative;
     width: 100%;
-    text-align: center;    
+    text-align: center;
 }
 
 
@@ -143,7 +179,7 @@
 .radio-button label {
     display: block;
     cursor: pointer;
-    position: relative;    
+    position: relative;
     border: 1px solid #000;
     margin-left: 40%;
     color: white;
@@ -175,36 +211,6 @@
     overflow: hidden;
     border: 3px solid #fff;
     border-radius: 50%;
-}
-
-.textchange h2 {
-    font-size: 62px;
-}
-
-.textchange h5 {
-    font-size: 40px;
-    background-color: #1ab68a;
-    color: #fff;
-}
-
-@media (max-width:1000px) {
-    .textchange h2 {
-        font-size: 42px;
-    }
-
-    .textchange h5 {
-        font-size: 30px;
-    }
-}
-
-@media (max-width:700px) {
-    .textchange h2 {
-        font-size: 32px;
-    }
-
-    .textchange h5 {
-        font-size: 20px;
-    }
 }
 
 
