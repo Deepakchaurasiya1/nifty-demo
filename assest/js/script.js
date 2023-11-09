@@ -43,7 +43,7 @@ window.addEventListener('load', init);
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     const container = document.getElementById('scroll-container1');        
-    if (scrollPosition < 500) {       
+    if (scrollPosition < 400) {       
         container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
         container.style.backdropFilter = 'blur(2px)';
     } else if (scrollPosition < 1000) {
@@ -57,7 +57,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     const container = document.getElementById('scroll-container2');       
-    if (scrollPosition < 500) {       
+    if (scrollPosition < 400) {       
         container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
         container.style.backdropFilter = 'blur(2px)';
     } else if (scrollPosition < 1000) {
@@ -71,7 +71,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     const container = document.getElementById('scroll-container3');        
-    if (scrollPosition < 500) {       
+    if (scrollPosition < 400) {       
         container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
         container.style.backdropFilter = 'blur(2px)';
     } else if (scrollPosition < 1000) {
@@ -85,7 +85,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     const container = document.getElementById('scroll-container4');        
-    if (scrollPosition < 500) {       
+    if (scrollPosition < 400) {       
         container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
         container.style.backdropFilter = 'blur(2px)';
     } else if (scrollPosition < 1000) {
@@ -99,7 +99,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     const container = document.getElementById('scroll-container5');        
-    if (scrollPosition < 500) {       
+    if (scrollPosition < 400) {       
         container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
         container.style.backdropFilter = 'blur(2px)';
     } else if (scrollPosition < 1000) {
@@ -113,7 +113,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     const container = document.getElementById('scroll-container6');        
-    if (scrollPosition < 500) {       
+    if (scrollPosition < 400) {       
         container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
         container.style.backdropFilter = 'blur(2px)';
     } else if (scrollPosition < 1000) {
@@ -127,7 +127,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     const container = document.getElementById('scroll-container7');        
-    if (scrollPosition < 500) {       
+    if (scrollPosition < 400) {       
         container.style.background = `rgba(255, 255, 255, 0.5) url('your-background-image.jpg')`;
         container.style.backdropFilter = 'blur(2px)';
     } else if (scrollPosition < 1000) {
