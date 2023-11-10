@@ -141,9 +141,9 @@
 /* Member Price : $19.99/Month for each */
 .textchange h5{
     color: white;
-    font-size: 22px;
+    font-size: 42px;
     font-weight: 500;   
-    background-color: #1ab68a;
+    background-color: #1ab68a;   
 }
 
 .subheding {
@@ -238,8 +238,14 @@
     border: 3px solid #fff;
     border-radius: 50%;
 }
-/* Try This */
-.bgtop{
-    background-image: url(assest/img/bottom_right_blue.png);   
+.popularone{
+    background-color:#d0e9f0;   
+    background-image: url(/assest/img/top_left_dark_blue.png);
+    background-repeat: no-repeat;
 }
 
+/* .populer{
+   background-image: url(../img/bottom_right_blue-removebg.png);  
+   background-repeat: no-repeat;
+   background-color: red;      
+} */
